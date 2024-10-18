@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Aturan untuk gambar logo */
+.container img {
+    width: 100px; /* Atur lebar gambar sesuai kebutuhan, misalnya 100px */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    display: block; /* Membuat gambar menjadi block element */
+    margin: 0 auto 20px; /* Memusatkan gambar di atas form */
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat halaman berada di tengah */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Lebar tetap untuk form */
+}
+
+h2 {
+    color: #333;
+    text-align: center; /* Rata tengah judul */
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Menghitung padding dalam lebar */
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%; /* Tombol lebar penuh */
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center; /* Rata tengah pesan kesalahan */
+    margin-top: 10px; /* Ruang di atas pesan kesalahan */
+}
+
+p {
+    font-size: 12px;
+    
+    text-align: center; /* Rata tengah paragraf */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
